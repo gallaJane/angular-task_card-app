@@ -1,0 +1,24 @@
+.card{
+    border-radius: 0;
+/* when we want to make something obvious that is clickable */
+    cursor: pointer;
+
+}
+.card,
+.card-footer {
+    background-color: #FFFFA5;
+    border: none;
+}
+.card.completed,
+.card.completed .card-footer,
+.card.completed i{
+    background-color: #EEE;
+    color: #CCC;
+}
+.card-footer {
+    text-align: right;
+}
+i {
+    color: #CC0000;
+    padding-right: .5rem;
+}
